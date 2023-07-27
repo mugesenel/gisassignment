@@ -1,11 +1,1 @@
-10.09.2021 and 30.09.2021 20m resolution files cant open in SNAP or in QGIS (only band 11 files are opened). 
-SNAP sentinel plugins cant run correctly.
-10m resolution files (both dates): SNAP read those files uncorrectly, dont recognize as a S2A satellite images.
-QGIS sentinel 2 cloud mask plugin cant run because of ee module. No solution.
-I resampled 20 m resolution band 11 images and stack with the 10 m resolution bands 2, 3, 4, 8. That was the only logical way.
-I tried some solutions assisted by github repositories and stackoverflow but they didnt work either. (python based libraries etc.)
-I wanted to use supervised classification but files didnt run correctly. 
-I did stack bands, resample, normalization.
-I know the classification methos, TDP process but i couldnt perform them due to problems.
-I thought using interferometry to work on the volcanic area (eruption, lava flow etc.), but i dont have the precise data.
-If there was time to communicate in the normal process, I could fix some of them. Sorry for that.
+
